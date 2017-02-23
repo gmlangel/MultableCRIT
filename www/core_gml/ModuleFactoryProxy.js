@@ -4,7 +4,7 @@
  */
 
 /**
- * 首页
+ * 程序主容器
  * */
 var mod_m = "ModuleMaster";
 
@@ -13,13 +13,19 @@ var mod_m = "ModuleMaster";
  * */
 var mod_mc = "ModuleMyCenter";
 
+
+/**
+ * F&Q问答帮助模块
+ * */
+var mod_fq = "ModuleFandQ";
+
 /**
  * 模块字典
  * */
 var moduleMap = {}
-moduleMap[mod_m] = {'view':'./modules/mod_master/V_MasterPage.html','controller':'./modules/mod_master/P_MasterPage.js'};
-moduleMap[mod_mc] = {'view':'./modules/mod_myCenter/V_MyCenter.html','controller':'./modules/mod_myCenter/P_MyCenter.js'};
-
+moduleMap[mod_m] = {'viewPath':'./modules/mod_master/V_MasterPage.html','jsPath':'./modules/mod_master/P_MasterPage.js','view':null,'controller':null};
+moduleMap[mod_mc] = {'viewPath':'./modules/mod_CustomCenter/V_CustomCenter.html','jsPath':'./modules/mod_CustomCenter/P_CustomCenter.js','view':null,'controller':null};
+moduleMap[mod_fq] = {'viewPath':'./modules/mod_FandQ/V_FandQ.html','jsPath':'./modules/mod_CustomCenter/P_FandQ.js','view':null,'controller':null};
 function ModuleFactoryProxy(){
 
     /**
@@ -36,8 +42,8 @@ function ModuleFactoryProxy(){
             }
             return;
         }
-        var viewPath = mod["view"] || "";
-        var controllerPath = mod["controller"] || "";
+        var viewPath = this.getViewPathByName(mName) || "";
+        var controllerPath = this.getJsPathByName(mName) || "";
         if(viewPath == "" || controllerPath == ""){
             if(errFunc != "" && typeof(errFunc) == "function") {
                 errFunc("模块" + mName + "缺少view或者controller");
@@ -80,4 +86,39 @@ function ModuleFactoryProxy(){
 
     }
 
+    /**
+     * 通过moduleName,获取view的html页面地址
+     * */
+    this.getViewPathByName = function(modName){
+        return this.getModuleAttribute(modName,'viewPath');
+    }
+
+    /**
+     * 通过moduleName,获取模块对应的JS的页面地址
+     * */
+    this.getJsPathByName = function(modName){
+        return this.getModuleAttribute(modName,'jsPath');
+    }
+
+    /**
+     * 通过moduleName,获取view视图节点对象
+     * */
+    this.getViewByName = function(modName){
+        return this.getModuleAttribute(modName,'view');
+    }
+
+    /**
+     * 通过moduleName,获取view的controller对象
+     * */
+    this.getControllerByName = function(modName){
+        return this.getModuleAttribute(modName,'controller');
+    }
+    this.getModuleAttribute = function(modName,attribKey){
+        var mod = moduleMap[modName]
+        if(mod != null){
+            return mod[attribKey];
+        }else{
+            return null;
+        }
+    }
 }
