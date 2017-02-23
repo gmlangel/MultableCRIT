@@ -6,37 +6,84 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
   <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script type="text/javascript" src="customeJS/GMLEvent.js"></script>
 
+
+  <script>
+
+  var pagesIDS = ['page7.html','page6.html','page5.html','page1.html','page3.html','page2.html','page4.html'];
+  var currentpageidx = 0;
+
+  var prev = function() {
+    var carousel = document.getElementById('carousel');
+    carousel.prev();
+  };
+
+  var next = function() {
+    var carousel = document.getElementById('carousel');
+    carousel.next();
+  };
+
+  ons.ready(function() {
+    var carousel = document.addEventListener(CarouselEvent.PostChange, function(event) {
+      console.log('Changed to ' + event.activeIndex)
+    });
+  });
+
+  function makeLazyListDelegate(){
+    var infiniteList = document.getElementById('infinite-list');
+
+    infiniteList.delegate = {
+      createItemContent: function(i) {
+        return ons._util.createElement(
+                '<ons-list-item>Item ' + i + '<ons-toolbar-button class=\"right\"><ons-icon icon=\'md-chevron-right\'></ons-icon></ons-toolbar-button></ons-list-item>'
+        );
+      },
+      countItems: function() {
+        return 10000;
+      },
+      calculateItemHeight: function() {
+        return ons.platform.isAndroid() ? 48 : 44;
+      }
+    };
+
+    infiniteList.refresh();
+  }
+  document.addEventListener(PageEvent.Init,function(e){
+    var p = e.target;
+    var divGD = ons.GestureDetector(p);
+    divGD.on('dragup dragdown', function(event) {
+      console.log('drag Y axis');
+    });
+
+    if(p.id == 'page4'){
+      makeLazyListDelegate();
+    }
+    console.log(p.id);
+
+    if(currentpageidx < pagesIDS.length - 1){
+      currentpageidx++;
+      //添加去下一页的事件
+      p.querySelector("#gonextPage").onclick = function(e){
+        document.querySelector('#my-navigator').pushPage(pagesIDS[currentpageidx]);
+      }
+    }else{
+      //最后一页隐藏 "下一页按钮"
+      p.querySelector("#gonextPage").style.display = 'none';
+    }
+  })
+
+    document.addEventListener(PageEvent.Destroy,function(e){
+      var p = e.target;
+      console.log(p.id+'被释放')
+    })
+  </script>
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
   <link rel="stylesheet" href="css/style.css">
-
-  <script>
-    ons.ready(function() {
-      console.log("Onsen UI is ready!");
-    });
-
-    document.addEventListener('show', function(event) {
-      var page = event.target;
-      var titleElement = document.querySelector('#toolbar-title');
-        titleElement.innerHTML = page.id;
-    });
-    
-  </script>
 </head>
 <body>
-  <ons-page>
-    <ons-toolbar>
-      <div class="center" id="toolbar-title"></div>
-    </ons-toolbar>
-    <ons-tabbar position="auto">
-      <ons-tab label="Tab 1" page="./modules/mod_master/V_MasterPage.html" active>
-      </ons-tab>
-      <ons-tab label="Tab 2" page="./modules/mod_myCenter/V_MyCenter.html">
-      </ons-tab>
-    </ons-tabbar>
-  </ons-page>
-
+  <ons-navigator animation='slide' id='my-navigator' page="page7.html"></ons-navigator>
 </body>
 </html>
