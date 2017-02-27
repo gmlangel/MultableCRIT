@@ -2,9 +2,6 @@
  * Created by guominglong on 2017/2/20.
  */
 function MasterPage(){
-    var maxLoadCount = 0;
-    var currentLoadCount = 0;
-    var selfInstance = null;
     var dataProvider = [
         {"titName":'常见问题',"modName":mod_fq},
         {"titName":'全部工单',"modName":mod_tl},
@@ -13,14 +10,13 @@ function MasterPage(){
 
     this.init = function(){
 
-        selfInstance = this;
-        maxLoadCount = dataProvider.length;
         //添加相关处理事件
         this.addEvents();
 
         //加载各个子页面
-        this.createMod(dataProvider[currentLoadCount].titName,dataProvider[currentLoadCount].modName);
-
+        for(var i = 0;i<dataProvider.length;i++){
+            this.createMod(dataProvider[i].titName,dataProvider[i].modName);
+        }
     }
 
     this.show = function(){
@@ -55,29 +51,16 @@ function MasterPage(){
 
     this.createMod = function(title,modName){
         new ModuleFactoryProxy().loadModule(modName,function(path){
-
             var tabNode = ons._util.createElement('<ons-tab label="'+title+'" page="'+path+'"></ons-tab>');
             var tabContainer  = document.getElementById('mainTabbar');
             tabContainer.childNodes[1].appendChild(tabNode);
-            if(currentLoadCount == 0){
+
+            if(modName == dataProvider[0].modName){
                 //当第一页加载完毕时,设置其为首页
                 tabContainer.setActiveTab(0);
             }
-            currentLoadCount ++;
-            if(currentLoadCount < maxLoadCount)
-            {
-                //加载下一页
-                selfInstance.createMod(dataProvider[currentLoadCount].titName,dataProvider[currentLoadCount].modName);
-            }
         },function(errInfo){
-
             console.log(errInfo);
-            currentLoadCount ++;
-            if(currentLoadCount < maxLoadCount)
-            {
-                //加载下一页
-                selfInstance.createMod(dataProvider[currentLoadCount].titName,dataProvider[currentLoadCount].modName);
-            }
         })
     }
 }

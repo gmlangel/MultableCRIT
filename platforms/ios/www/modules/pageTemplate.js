@@ -1,9 +1,9 @@
 /**
- * Created by guominglong on 2017/2/23.
+ * Created by guominglong on 2017/2/20.
  */
-function FandQ(){
-
+function MasterPage(){
     this.init = function(){
+
     }
 
     this.show = function(){
@@ -13,7 +13,9 @@ function FandQ(){
     }
 
     this.hide = function(){
+
     }
 }
+
 //向模块map中注册controller
-moduleMap[mod_fq]["controller"] = new FandQ();
+moduleMap[mod_m]["controller"] = new MasterPage();
