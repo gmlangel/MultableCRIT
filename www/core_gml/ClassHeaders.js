@@ -58,6 +58,36 @@ modfq.viewPath = './modules/mod_FandQ/V_FandQ.html';
 modfq.jsPath = './modules/mod_FandQ/P_FandQ.js';
 moduleMap[mod_fq] = modfq;
 
+/**
+ * F&Q问答帮助模块的第一级子页面
+ * */
+var mod_fq_grp = "ModuleFandQgrp";
+var modfqgrp = new ModEntity();
+modfqgrp.id = mod_fq_grp;
+modfqgrp.viewPath = './modules/mod_FandQ/V_FandQGroup.html';
+modfqgrp.jsPath = './modules/mod_FandQ/P_FandQGroup.js';
+moduleMap[mod_fq_grp] = modfqgrp;
+
+
+/**
+ * F&Q问答帮助模块的第二级子页面
+ * */
+var mod_fq_sub = "ModuleFandQsub";
+var modfqsub = new ModEntity();
+modfqsub.id = mod_fq_sub;
+modfqsub.viewPath = './modules/mod_FandQ/V_FandQ_sub.html';
+modfqsub.jsPath = './modules/mod_FandQ/P_FandQ_sub.js';
+moduleMap[mod_fq_sub] = modfqsub;
+
+/**
+ * F&Q问答帮助模块的详细内容页面
+ * */
+var mod_fq_details = "ModuleFandQdet";
+var modfqdet = new ModEntity();
+modfqdet.id = mod_fq_details;
+modfqdet.viewPath = './modules/mod_FandQ/V_FandQ_details.html';
+modfqdet.jsPath = './modules/mod_FandQ/P_FandQ_details.js';
+moduleMap[mod_fq_details] = modfqdet;
 
 /**
  * 全部工单模块

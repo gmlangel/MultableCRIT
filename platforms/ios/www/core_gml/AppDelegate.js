@@ -7,6 +7,7 @@ function AppDelegate(){
      * 开始
      * */
     this.start = function(){
+
         this.addEvents();//添加相关事件
         ons.ready(function() {
             console.log("Onsen UI is ready!");
@@ -18,11 +19,10 @@ function AppDelegate(){
             $.ajax({url:pagePath,async:true,dataType:'html',type:'post',success:function(data){
                 var resultText = data;
                 if(resultText != ""){
-                    var loadedNode = document.createElement('html')
+                    var loadedNode = document.createElement('div')
                     loadedNode.innerHTML = resultText;
-                    var rootPageNode = loadedNode.children[1].children[0];
                     //添加根页面到dom树
-                    document.body.appendChild(rootPageNode);
+                    document.body.appendChild(loadedNode);
 
                 }else{
                     console.log("app根页面加载失败");
@@ -88,6 +88,8 @@ function AppDelegate(){
                 controller.hide();//调用controller的隐藏函数
             }
         })
+
+
     }
 
 }

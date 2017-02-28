@@ -28,6 +28,13 @@ function ModuleFactoryProxy(){
             return;
         }else{
             //所有的必要组件都存在
+            //判断controller是否存在,如果存在则不加载
+            var cro = this.getControllerByName(mName);
+            if(cro != null){
+                completeFunc(viewPath);
+                return;
+            }
+
             //加载controller
             $.ajax({url:controllerPath,async:true,dataType:'script',type:'post',success:function(data){
                 var resultText = data;

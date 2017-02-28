@@ -1,2 +1,19 @@
 /**/
 
+.list__item:hover{
+    background-color: rgba(24,103,194,0.5);
+}
+
+.div-group-titleStyle{
+    font-size: 17px;
+    color: rgba(24,103,194,0.85);
+    margin-left: -40px;
+}
+
+.div-group-ulStyle{
+    font-size: 12px;
+}
+
+.div-group-ulStyle li{
+    margin-left:-25px;
+}
