@@ -74,9 +74,10 @@ function FandQ(){
             dataType:'html',
             success:function(data){
                 if(data != ""){
+                    //获取到了数据源
                     var xmln = document.createElement('div');
                     xmln.innerHTML = data;
-                    FandQ.dataProvider = selfinstance.appendStyle(xmln);
+                    FandQ.dataProvider = selfinstance.appendStyle(xmln);//为数据源追加样式
                 }
                 if(comp != null && typeof(comp) == 'function'){
                     comp()//加载成功

@@ -6,8 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/FandQ_Provider.html" afterPath="$PROJECT_DIR$/www/assets/FandQ_Provider.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" afterPath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQGroup.js" afterPath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQGroup.html" afterPath="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQGroup.html" />
     </list>
     <ignored path="MultableCRIT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +29,11 @@
       <file leaf-file-name="P_FandQ.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.222222">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state vertical-scroll-proportion="-7.2222223">
+              <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc;n#FandQ#0" expanded="false" />
-                <marker date="1488339580000" expanded="true" signature="1932:2044" placeholder="..." />
+                <marker date="1488339846000" expanded="true" signature="1932:2044" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -62,11 +60,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FandQ_Provider.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/assets/FandQ_Provider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.375">
-              <caret line="70" column="56" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
+            <state vertical-scroll-proportion="2.269565">
+              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -114,13 +122,13 @@
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ_sub.js" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQ_details.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ_details.js" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQ.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQGroup.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQGroup.js" />
-        <option value="$PROJECT_DIR$/www/assets/FandQ_Provider.html" />
         <option value="$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/assets/FandQ_Provider.html" />
       </list>
     </option>
   </component>
@@ -426,7 +434,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -657,6 +665,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7916667">
           <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,6 +673,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6356589">
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -778,14 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQ.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
@@ -853,19 +855,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.222222">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state vertical-scroll-proportion="-7.2222223">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc;n#FandQ#0" expanded="false" />
-            <marker date="1488339580000" expanded="true" signature="1932:2044" placeholder="..." />
+            <marker date="1488339846000" expanded="true" signature="1932:2044" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/assets/FandQ_Provider.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.375">
-          <caret line="70" column="56" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
+        <state vertical-scroll-proportion="2.269565">
+          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
           <folding />
         </state>
       </provider>
