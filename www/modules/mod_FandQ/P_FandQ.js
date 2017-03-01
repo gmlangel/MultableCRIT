@@ -76,7 +76,7 @@ function FandQ(){
                 if(data != ""){
                     var xmln = document.createElement('div');
                     xmln.innerHTML = data;
-                    FandQ.dataProvider = xmln.children;
+                    FandQ.dataProvider = selfinstance.appendStyle(xmln);
                 }
                 if(comp != null && typeof(comp) == 'function'){
                     comp()//加载成功
@@ -90,6 +90,22 @@ function FandQ(){
                 }
             }
         })
+    }
+    this.appendStyle = function(baseNode){
+        var bn = $(baseNode)[0]
+        $(bn).find('span').each(function(idx,node){
+            node.className = 'div-group-titleStyle';
+        })
+        $(bn).find('ul').each(function(idx,node){
+            node.className = 'div-group-ulStyle';
+        })
+        $(bn).find('#t').each(function(idx,node){
+            node.className = 'div-item-list-p';
+        })
+        $(bn).find('#c').each(function(idx,node){
+            node.className = 'div-group-ulStyle';
+        })
+        return bn.children;
     }
 
     //获取一条指定索引的数据

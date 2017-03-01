@@ -29,22 +29,19 @@ function FandQGroup(){
 
     //懒加载list的委托
     this.makeLazyListDelegate = function(){
+        if(data == null || data.length == 0)
+        {
+            return;
+        }
         var myList = document.getElementById('level1_list');
-        myList.delegate = {
-            createItemContent: function(i) {
-                return ons._util.createElement(
-                    '<ons-list-item dataid="'+i+'" style="font-size: 14px;font-family: -apple-system, \'Helvetica Neue\', Helvetica, Arial, \'Lucida Grande\', sans-serif;">' + selfinstance.getGroupinfoByIdx(i).innerHTML + '<ons-toolbar-button class=\"right\"><ons-icon icon=\'md-chevron-right\'></ons-icon></ons-toolbar-button></ons-list-item>'
-                );
-            },
-            countItems: function() {
-                return data.length;
-            },
-            calculateItemHeight: function(idx) {
-                return 0;
-            }
-        };
-        //刷新列表
-        myList.refresh();
+        myList.innerHTML = ''
+        var j = data.length;
+        for(var i=0;i<j;i++){
+            var itemdata = ons._util.createElement(
+                '<ons-list-item dataid="'+i+'" style="font-size: 14px;font-family: -apple-system, \'Helvetica Neue\', Helvetica, Arial, \'Lucida Grande\', sans-serif;">' + selfinstance.getGroupinfoByIdx(i).innerHTML + '<ons-toolbar-button class=\"right\"><ons-icon icon=\'md-chevron-right\'></ons-icon></ons-toolbar-button></ons-list-item>'
+            );
+            myList.appendChild(itemdata)
+        }
     }
 
     this.fillInfo = function(title,dataObj){
