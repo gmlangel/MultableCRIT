@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d6451eb-ccde-4b8a-a9f3-bc6c6117a94a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_myCenter/P_MyCenter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_myCenter/V_MyCenter.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/FandQ_Provider.html" afterPath="$PROJECT_DIR$/www/assets/FandQ_Provider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/P_MasterPage.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/P_MasterPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/V_MasterPage.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/V_MasterPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/core_gml/AppDelegate.js" afterPath="$PROJECT_DIR$/www/core_gml/AppDelegate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js" afterPath="$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" afterPath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" />
     </list>
     <ignored path="MultableCRIT.iws" />
@@ -26,14 +32,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="P_FandQ.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="P_FandQ.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2222223">
-              <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.5625">
+              <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
               <folding>
                 <element signature="n#!!doc;n#FandQ#0" expanded="false" />
-                <marker date="1488339846000" expanded="true" signature="1932:2044" placeholder="..." />
+                <marker date="1488357923000" expanded="true" signature="1932:2044" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -43,19 +49,8 @@
         <entry file="file://$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <marker date="1488339433000" expanded="true" signature="1105:2605" placeholder="{...}" />
-                <marker date="1488339433000" expanded="true" signature="1152:2594" placeholder="{&quot;async&quot;: true...}" />
-                <marker date="1488339433000" expanded="true" signature="1235:2257" placeholder="{...}" />
-                <marker date="1488339433000" expanded="true" signature="1312:2019" placeholder="{...}" />
-                <marker date="1488339433000" expanded="true" signature="1741:1826" placeholder="{...}" />
-                <marker date="1488339433000" expanded="true" signature="2075:2155" placeholder="{...}" />
-                <marker date="1488339433000" expanded="true" signature="2159:2243" placeholder="{...}" />
-                <marker date="1488339433000" expanded="true" signature="2301:2593" placeholder="{...}" />
-                <marker date="1488339433000" expanded="true" signature="2455:2513" placeholder="{...}" />
-                <marker date="1488339433000" expanded="true" signature="2517:2579" placeholder="{...}" />
-              </folding>
+              <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FandQ_Provider.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FandQ_Provider.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/assets/FandQ_Provider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.269565">
-              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+            <state vertical-scroll-proportion="-3.235294">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/core_gml/AppDelegate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -118,17 +123,17 @@
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQ_sub.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.html" />
         <option value="$PROJECT_DIR$/www/core_gml/ClassHeaders.js" />
-        <option value="$PROJECT_DIR$/www/core_gml/AppDelegate.js" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ_sub.js" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQ_details.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ_details.js" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQ.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQGroup.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQGroup.js" />
-        <option value="$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js" />
-        <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/assets/FandQ_Provider.html" />
+        <option value="$PROJECT_DIR$/www/core_gml/AppDelegate.js" />
+        <option value="$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js" />
+        <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" />
       </list>
     </option>
   </component>
@@ -434,7 +439,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13302752" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -478,6 +483,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#MasterPage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -514,6 +522,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#MasterPage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,6 +627,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33226836">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -688,6 +700,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc;n#MasterPage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,13 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35677084">
           <caret line="617" column="2" selection-start-line="617" selection-start-column="2" selection-end-line="617" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/core_gml/AppDelegate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5555553">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -834,36 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <marker date="1488339433000" expanded="true" signature="1105:2605" placeholder="{...}" />
-            <marker date="1488339433000" expanded="true" signature="1152:2594" placeholder="{&quot;async&quot;: true...}" />
-            <marker date="1488339433000" expanded="true" signature="1235:2257" placeholder="{...}" />
-            <marker date="1488339433000" expanded="true" signature="1312:2019" placeholder="{...}" />
-            <marker date="1488339433000" expanded="true" signature="1741:1826" placeholder="{...}" />
-            <marker date="1488339433000" expanded="true" signature="2075:2155" placeholder="{...}" />
-            <marker date="1488339433000" expanded="true" signature="2159:2243" placeholder="{...}" />
-            <marker date="1488339433000" expanded="true" signature="2301:2593" placeholder="{...}" />
-            <marker date="1488339433000" expanded="true" signature="2455:2513" placeholder="{...}" />
-            <marker date="1488339433000" expanded="true" signature="2517:2579" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2222223">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc;n#FandQ#0" expanded="false" />
-            <marker date="1488339846000" expanded="true" signature="1932:2044" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
@@ -874,9 +852,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/assets/FandQ_Provider.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.269565">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+        <state vertical-scroll-proportion="-3.235294">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/core_gml/AppDelegate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5625">
+          <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc;n#FandQ#0" expanded="false" />
+            <marker date="1488357923000" expanded="true" signature="1932:2044" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

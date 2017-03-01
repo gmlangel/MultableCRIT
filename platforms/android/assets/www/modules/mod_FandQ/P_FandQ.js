@@ -69,7 +69,7 @@ function FandQ(){
     this.loadDataProvider = function(_url,comp){
         $.ajax({
             url:_url,
-            type:'get',
+            type:'post',
             async:true,
             dataType:'html',
             success:function(data){

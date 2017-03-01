@@ -16,7 +16,7 @@ function AppDelegate(){
 
         //加载app的根页面
         new ModuleFactoryProxy().loadModule(mod_m,function(pagePath){
-            $.ajax({url:pagePath,async:true,dataType:'html',type:'get',success:function(data){
+            $.ajax({url:pagePath,async:true,dataType:'html',type:'post',success:function(data){
                 var resultText = data;
                 if(resultText != ""){
                     var loadedNode = document.createElement('div')
