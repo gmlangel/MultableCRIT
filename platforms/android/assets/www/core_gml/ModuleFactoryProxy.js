@@ -36,7 +36,7 @@ function ModuleFactoryProxy(){
             }
 
             //加载controller
-            $.ajax({url:controllerPath,async:true,dataType:'script',type:'post',success:function(data){
+            $.ajax({url:controllerPath,async:true,dataType:'script',type:'get',success:function(data){
                 var resultText = data;
                 if(resultText != ""){
                     var scrId = mod['id'] +'JS';

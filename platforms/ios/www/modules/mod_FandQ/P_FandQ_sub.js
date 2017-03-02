@@ -11,6 +11,8 @@ function FandQ_sub(){
     //当页面切换完毕
     this.onmainNavPushEnd = function(e){
         document.getElementById('mainNav').removeEventListener(NavigatorEvent.PushEnd,selfinstance.onmainNavPushEnd);
+        var ctr = new ModuleFactoryProxy().getControllerByName(mod_fq_details);
+        ctr.fillInfo(selfinstance.getDetilsInfoByIdx(currentSelectedIdx));
     }
 
     this.show = function(){
@@ -27,7 +29,7 @@ function FandQ_sub(){
      * 填充数据
      * */
     this.fillInfo = function(_data){
-        this.data = _data;
+        data = _data;
         //当数据源加载成功后,将数据源绑定到显示对象列表
         selfinstance.makeLazyListDelegate();
         //批量添加点击事件
@@ -55,7 +57,7 @@ function FandQ_sub(){
                 );
             },
             countItems: function() {
-                return selfinstance.data.length;
+                return data.length;
             },
             calculateItemHeight: function(idx) {
                 return ons.platform.isAndroid() ? 48 : 44;
@@ -68,19 +70,19 @@ function FandQ_sub(){
 
     //获取一条指定索引的数据
     this.getGroupinfoByIdx = function(idx){
-        if(this.data == null || this.data.length == 0){
+        if(data == null || data.length == 0){
             return null
         }else{
-            var titlenode = this.data[idx].getElementsByTagName('div-item-title')[0];
+            var titlenode = data[idx].getElementsByTagName('div-item-title')[0];
             return titlenode;
         }
     }
 
     this.getDetilsInfoByIdx = function(idx){
-        if(this.data == null || this.data.length == 0){
+        if(data == null || data.length == 0){
             return null
         }else{
-            return this.data[idx].getElementsByTagName('div-item-list');
+            return data[idx].getElementsByTagName('div-item-list');
         }
     }
 }

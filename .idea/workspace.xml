@@ -2,16 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d6451eb-ccde-4b8a-a9f3-bc6c6117a94a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_myCenter/P_MyCenter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_myCenter/V_MyCenter.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/MultableCRIT/Images.xcassets/LaunchImage-1.launchimage/Contents.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/P_MasterPage.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/P_MasterPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/V_MasterPage.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/V_MasterPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/core_gml/AppDelegate.js" afterPath="$PROJECT_DIR$/www/core_gml/AppDelegate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js" afterPath="$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="$PROJECT_DIR$/platforms/android/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/assets/FandQ_Provider.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/assets/FandQ_Provider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/AppDelegate.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/AppDelegate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/ClassHeaders.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/ClassHeaders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/ModuleFactoryProxy.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/ModuleFactoryProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/P_FandQ.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/P_FandQ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/platforms/android/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/MultableCRIT.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/MultableCRIT.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/MultableCRIT/CDVLaunchScreen.storyboard" afterPath="$PROJECT_DIR$/platforms/ios/MultableCRIT/CDVLaunchScreen.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/MultableCRIT/Classes/MainViewController.m" afterPath="$PROJECT_DIR$/platforms/ios/MultableCRIT/Classes/MainViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/MultableCRIT/MultableCRIT-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/MultableCRIT/MultableCRIT-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/assets/FandQ_Provider.html" afterPath="$PROJECT_DIR$/platforms/ios/www/assets/FandQ_Provider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/core_gml/AppDelegate.js" afterPath="$PROJECT_DIR$/platforms/ios/www/core_gml/AppDelegate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/core_gml/ClassHeaders.js" afterPath="$PROJECT_DIR$/platforms/ios/www/core_gml/ClassHeaders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/core_gml/ModuleFactoryProxy.js" afterPath="$PROJECT_DIR$/platforms/ios/www/core_gml/ModuleFactoryProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQ.js" afterPath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQGroup.js" afterPath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQGroup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQ_details.js" afterPath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQ_details.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQ_sub.js" afterPath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQ_sub.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/V_FandQGroup.html" afterPath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/V_FandQGroup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/V_FandQ_details.html" afterPath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/V_FandQ_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/FandQ_Provider.html" afterPath="$PROJECT_DIR$/www/assets/FandQ_Provider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/core_gml/ClassHeaders.js" afterPath="$PROJECT_DIR$/www/core_gml/ClassHeaders.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" afterPath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/modules/mod_master/V_MasterPage.html" afterPath="$PROJECT_DIR$/www/modules/mod_master/V_MasterPage.html" />
     </list>
     <ignored path="MultableCRIT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,15 +53,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="P_FandQ.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="P_FandQ.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5625">
-              <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#FandQ#0" expanded="false" />
-                <marker date="1488357923000" expanded="true" signature="1932:2044" placeholder="..." />
+                <marker date="1488433447000" expanded="true" signature="1940:2052" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V_MasterPage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/modules/mod_master/V_MasterPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14950167">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,7 +80,17 @@
         <entry file="file://$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassHeaders.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/core_gml/ClassHeaders.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -58,7 +99,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding />
             </state>
@@ -68,8 +109,8 @@
       <file leaf-file-name="FandQ_Provider.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/assets/FandQ_Provider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.235294">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -79,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/www/core_gml/AppDelegate.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -115,14 +156,12 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/lib/onsenui/css/onsen-css-components-default.css" />
         <option value="$PROJECT_DIR$/www/lib/onsenui/css/onsen-css-components.css" />
-        <option value="$PROJECT_DIR$/www/modules/mod_master/V_MasterPage.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_master/P_MasterPage.js" />
         <option value="$PROJECT_DIR$/www/modules/mod_CustomCenter/V_CustomCenter.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_TaskList/V_TaskListPage.html" />
         <option value="$PROJECT_DIR$/demo/page6.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQ_sub.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.html" />
-        <option value="$PROJECT_DIR$/www/core_gml/ClassHeaders.js" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ_sub.js" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/V_FandQ_details.html" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ_details.js" />
@@ -133,7 +172,9 @@
         <option value="$PROJECT_DIR$/www/assets/FandQ_Provider.html" />
         <option value="$PROJECT_DIR$/www/core_gml/AppDelegate.js" />
         <option value="$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js" />
+        <option value="$PROJECT_DIR$/www/core_gml/ClassHeaders.js" />
         <option value="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" />
+        <option value="$PROJECT_DIR$/www/modules/mod_master/V_MasterPage.html" />
       </list>
     </option>
   </component>
@@ -172,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,7 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mod_FandQ" />
+              <option name="myItemId" value="mod_master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,6 +378,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,19 +480,19 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13302752" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13302752" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -483,9 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#MasterPage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,9 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#MasterPage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3448276">
           <caret line="442" column="20068" selection-start-line="442" selection-start-column="20068" selection-end-line="442" selection-end-column="20068" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.095846646">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="23" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,14 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="17.85142">
           <caret line="4692" column="3" selection-start-line="4692" selection-start-column="3" selection-end-line="4692" selection-end-column="3" />
-          <folding>
-            <marker date="1487822835000" expanded="true" signature="218348:218378" placeholder="..." />
-            <marker date="1487822835000" expanded="true" signature="486898:487001" placeholder="..." />
-            <marker date="1487822835000" expanded="true" signature="503118:503216" placeholder="..." />
-            <marker date="1487822835000" expanded="true" signature="510047:510151" placeholder="..." />
-            <marker date="1487822835000" expanded="true" signature="514360:514440" placeholder="..." />
-            <marker date="1487822835000" expanded="true" signature="759111:759124" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3472454">
           <caret line="1" column="8559" selection-start-line="1" selection-start-column="8559" selection-end-line="1" selection-end-column="8559" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33226836">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,10 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.346154">
           <caret line="3657" column="25" selection-start-line="3657" selection-start-column="25" selection-end-line="3657" selection-end-column="25" />
-          <folding>
-            <element signature="e#122344#123761#2" expanded="false" />
-            <element signature="e#138040#138213#2" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.764706">
           <caret line="2224" column="30" selection-start-line="2224" selection-start-column="9" selection-end-line="2224" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="6484" column="0" selection-start-line="6484" selection-start-column="0" selection-end-line="6484" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7916667">
           <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,14 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6356589">
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/modules/mod_master/V_MasterPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -700,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc;n#MasterPage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6356589">
           <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,10 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc;n#FandQ_details#0" expanded="false" />
-            <marker date="1488289931000" expanded="true" signature="819:931" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1744186">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,10 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47412354">
           <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!doc;n#FandQGroup#0" expanded="false" />
-            <marker date="1488336618000" expanded="true" signature="1092:1204" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,33 +818,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33222038">
           <caret line="35" column="47" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="47" />
-          <folding>
-            <element signature="n#!!doc;n#FandQ_sub#0" expanded="false" />
-            <marker date="1488289651000" expanded="true" signature="1765:1877" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/core_gml/ClassHeaders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/assets/FandQ_Provider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.235294">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -861,7 +832,7 @@
     <entry file="file://$PROJECT_DIR$/www/core_gml/AppDelegate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -869,19 +840,43 @@
     <entry file="file://$PROJECT_DIR$/www/core_gml/ModuleFactoryProxy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/core_gml/ClassHeaders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/FandQ_Provider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5625">
-          <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#FandQ#0" expanded="false" />
-            <marker date="1488357923000" expanded="true" signature="1932:2044" placeholder="..." />
+            <marker date="1488433447000" expanded="true" signature="1940:2052" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/modules/mod_master/V_MasterPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14950167">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

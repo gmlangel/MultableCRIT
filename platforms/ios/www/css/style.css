@@ -7,7 +7,7 @@
 .div-group-titleStyle{
     font-size: 17px;
     color: rgba(24,103,194,0.85);
-    margin-left: -40px;
+    width: 100%;
 }
 
 .div-group-ulStyle{
@@ -16,4 +16,12 @@
 
 .div-group-ulStyle li{
     margin-left:-25px;
+    line-height: 20px;
+}
+
+
+.div-item-list-p{
+    width:100%;
+    font-size: 17px;
+    color: rgba(24,103,194,0.85);
 }

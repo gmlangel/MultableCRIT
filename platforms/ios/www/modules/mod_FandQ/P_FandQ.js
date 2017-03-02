@@ -8,7 +8,7 @@ function FandQ(){
     this.init = function(){
         selfinstance = this;
         //加载数据源
-        this.loadDataProvider('./assets/FandQ_Provider.html',function(){
+        this.loadDataProvider('http://172.16.3.178/crit/assets/FandQ_Provider.html',function(){
             //当数据源加载成功后,将数据源绑定到显示对象列表
             selfinstance.makeLazyListDelegate();
             //批量添加点击事件
@@ -69,14 +69,15 @@ function FandQ(){
     this.loadDataProvider = function(_url,comp){
         $.ajax({
             url:_url,
-            type:'post',
+            type:'get',
             async:true,
             dataType:'html',
             success:function(data){
                 if(data != ""){
+                    //获取到了数据源
                     var xmln = document.createElement('div');
                     xmln.innerHTML = data;
-                    FandQ.dataProvider = xmln.children;
+                    FandQ.dataProvider = selfinstance.appendStyle(xmln);//为数据源追加样式
                 }
                 if(comp != null && typeof(comp) == 'function'){
                     comp()//加载成功
@@ -90,6 +91,22 @@ function FandQ(){
                 }
             }
         })
+    }
+    this.appendStyle = function(baseNode){
+        var bn = $(baseNode)[0]
+        $(bn).find('span').each(function(idx,node){
+            node.className = 'div-group-titleStyle';
+        })
+        $(bn).find('ul').each(function(idx,node){
+            node.className = 'div-group-ulStyle';
+        })
+        $(bn).find('#t').each(function(idx,node){
+            node.className = 'div-item-list-p';
+        })
+        $(bn).find('#c').each(function(idx,node){
+            node.className = 'div-group-ulStyle';
+        })
+        return bn.children;
     }
 
     //获取一条指定索引的数据

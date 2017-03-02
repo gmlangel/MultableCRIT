@@ -27,14 +27,16 @@ function ModEntity(){
  * */
 var moduleMap = {}
 
+//url跟路径
+var rootUrl = 'http://172.16.3.178/crit/';//'./'
 /**
  * 程序主容器
  * */
 var mod_m = "ModuleMaster";//这个值必须和page中的id值对应(模块名 + "_P" = page的ID),否则模块将失效
 var modMaster = new ModEntity();
 modMaster.id = mod_m;
-modMaster.viewPath = './modules/mod_master/V_MasterPage.html';
-modMaster.jsPath = './modules/mod_master/P_MasterPage.js';
+modMaster.viewPath = rootUrl + 'modules/mod_master/V_MasterPage.html';
+modMaster.jsPath = rootUrl + 'modules/mod_master/P_MasterPage.js';
 moduleMap[mod_m] = modMaster;
 
 
@@ -44,8 +46,8 @@ moduleMap[mod_m] = modMaster;
 var mod_cc = "ModuleMyCenter";
 var modCC = new ModEntity();
 modCC.id = mod_cc;
-modCC.viewPath = './modules/mod_CustomCenter/V_CustomCenter.html';
-modCC.jsPath = './modules/mod_CustomCenter/P_CustomCenter.js';
+modCC.viewPath = rootUrl + 'modules/mod_CustomCenter/V_CustomCenter.html';
+modCC.jsPath = rootUrl + 'modules/mod_CustomCenter/P_CustomCenter.js';
 moduleMap[mod_cc] = modCC;
 
 /**
@@ -54,8 +56,8 @@ moduleMap[mod_cc] = modCC;
 var mod_fq = "ModuleFandQ";
 var modfq = new ModEntity();
 modfq.id = mod_fq;
-modfq.viewPath = './modules/mod_FandQ/V_FandQ.html';
-modfq.jsPath = './modules/mod_FandQ/P_FandQ.js';
+modfq.viewPath = rootUrl + 'modules/mod_FandQ/V_FandQ.html';
+modfq.jsPath = rootUrl + 'modules/mod_FandQ/P_FandQ.js';
 moduleMap[mod_fq] = modfq;
 
 /**
@@ -64,8 +66,8 @@ moduleMap[mod_fq] = modfq;
 var mod_fq_grp = "ModuleFandQgrp";
 var modfqgrp = new ModEntity();
 modfqgrp.id = mod_fq_grp;
-modfqgrp.viewPath = './modules/mod_FandQ/V_FandQGroup.html';
-modfqgrp.jsPath = './modules/mod_FandQ/P_FandQGroup.js';
+modfqgrp.viewPath = rootUrl + 'modules/mod_FandQ/V_FandQGroup.html';
+modfqgrp.jsPath = rootUrl + 'modules/mod_FandQ/P_FandQGroup.js';
 moduleMap[mod_fq_grp] = modfqgrp;
 
 
@@ -75,8 +77,8 @@ moduleMap[mod_fq_grp] = modfqgrp;
 var mod_fq_sub = "ModuleFandQsub";
 var modfqsub = new ModEntity();
 modfqsub.id = mod_fq_sub;
-modfqsub.viewPath = './modules/mod_FandQ/V_FandQ_sub.html';
-modfqsub.jsPath = './modules/mod_FandQ/P_FandQ_sub.js';
+modfqsub.viewPath = rootUrl + 'modules/mod_FandQ/V_FandQ_sub.html';
+modfqsub.jsPath = rootUrl + 'modules/mod_FandQ/P_FandQ_sub.js';
 moduleMap[mod_fq_sub] = modfqsub;
 
 /**
@@ -85,8 +87,8 @@ moduleMap[mod_fq_sub] = modfqsub;
 var mod_fq_details = "ModuleFandQdet";
 var modfqdet = new ModEntity();
 modfqdet.id = mod_fq_details;
-modfqdet.viewPath = './modules/mod_FandQ/V_FandQ_details.html';
-modfqdet.jsPath = './modules/mod_FandQ/P_FandQ_details.js';
+modfqdet.viewPath = rootUrl + 'modules/mod_FandQ/V_FandQ_details.html';
+modfqdet.jsPath = rootUrl + 'modules/mod_FandQ/P_FandQ_details.js';
 moduleMap[mod_fq_details] = modfqdet;
 
 /**
@@ -95,6 +97,6 @@ moduleMap[mod_fq_details] = modfqdet;
 var mod_tl = "TaskList";
 var modtl = new ModEntity();
 modtl.id = mod_tl;
-modtl.viewPath = './modules/mod_TaskList/V_TaskListPage.html';
-modtl.jsPath = './modules/mod_TaskList/P_TaskList.js';
+modtl.viewPath = rootUrl + 'modules/mod_TaskList/V_TaskListPage.html';
+modtl.jsPath = rootUrl + 'modules/mod_TaskList/P_TaskList.js';
 moduleMap[mod_tl] = modtl;

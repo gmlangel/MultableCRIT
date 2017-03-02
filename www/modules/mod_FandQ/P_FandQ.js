@@ -8,7 +8,7 @@ function FandQ(){
     this.init = function(){
         selfinstance = this;
         //加载数据源
-        this.loadDataProvider('./assets/FandQ_Provider.html',function(){
+        this.loadDataProvider(rootUrl + 'assets/FandQ_Provider.html',function(){
             //当数据源加载成功后,将数据源绑定到显示对象列表
             selfinstance.makeLazyListDelegate();
             //批量添加点击事件
