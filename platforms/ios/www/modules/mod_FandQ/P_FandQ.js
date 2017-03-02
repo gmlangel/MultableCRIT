@@ -5,10 +5,15 @@
 function FandQ(){
     var selfinstance = null;
     var currentSelectedIdx = 0;//当前选择的子项
+    var loadingNode = null;
     this.init = function(){
         selfinstance = this;
+        //显示loading
+         loadingNode = ons._util.createElement("<div class='loadingStyle'><ons-progress-circular indeterminate></ons-progress-circular></div>");
+         document.getElementById('ModuleFandQ_P').appendChild(loadingNode)
         //加载数据源
-        this.loadDataProvider('http://172.16.3.178/crit/assets/FandQ_Provider.html',function(){
+        this.loadDataProvider(rootUrl + 'assets/FandQ_Provider.html',function(){
+            document.getElementById('ModuleFandQ_P').removeChild(loadingNode);
             //当数据源加载成功后,将数据源绑定到显示对象列表
             selfinstance.makeLazyListDelegate();
             //批量添加点击事件

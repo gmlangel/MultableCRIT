@@ -28,7 +28,7 @@ function ModEntity(){
 var moduleMap = {}
 
 //url跟路径
-var rootUrl = 'http://172.16.3.178/crit/';//'./'
+var rootUrl = './'//'http://172.16.3.178/crit/';//'./'
 /**
  * 程序主容器
  * */

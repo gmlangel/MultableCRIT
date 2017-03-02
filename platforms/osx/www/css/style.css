@@ -1,2 +1,36 @@
 /**/
 
+.list__item:hover{
+    background-color: rgba(24,103,194,0.5);
+}
+
+.div-group-titleStyle{
+    font-size: 17px;
+    color: rgba(24,103,194,0.85);
+    width: 100%;
+}
+
+.div-group-ulStyle{
+    font-size: 12px;
+}
+
+.div-group-ulStyle li{
+    margin-left:-25px;
+    line-height: 20px;
+}
+
+
+.div-item-list-p{
+    width:100%;
+    font-size: 17px;
+    color: rgba(24,103,194,0.85);
+}
+
+.loadingStyle{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

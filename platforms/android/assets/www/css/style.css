@@ -25,3 +25,12 @@
     font-size: 17px;
     color: rgba(24,103,194,0.85);
 }
+
+.loadingStyle{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
