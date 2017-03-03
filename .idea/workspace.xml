@@ -2,6 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d6451eb-ccde-4b8a-a9f3-bc6c6117a94a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/assets/FandQ_Provider.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/components/loader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/components/loader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/components/monaca-cordova-loader/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/components/monaca-cordova-loader/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/components/monaca-cordova-loader/cordova-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/components/monaca-core-utils/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/components/monaca-core-utils/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/components/monaca-core-utils/monaca-core-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/android/nativeapiprovider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/android/promptbasednativeapi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/platform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/plugin/android/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/AppDelegate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/ClassHeaders.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/GMLEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/ModuleFactoryProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/jquery-3.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/font_awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/font_awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/font_awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/font_awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/font_awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/font_awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/font_awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/font_awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/ionicons/css/ionicons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/ionicons/css/ionicons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/ionicons/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/ionicons/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/ionicons/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/ionicons/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/material-design-iconic-font/css/material-design-iconic-font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/material-design-iconic-font/css/material-design-iconic-font.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/onsen-css-components-blue-basic-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/onsen-css-components-blue-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/onsen-css-components-dark-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/onsen-css-components-default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/onsen-css-components-purple-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/onsen-css-components-sunshine-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/onsen-css-components.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/css/onsenui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/js/angular-onsenui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/js/angular-onsenui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/js/onsenui.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/js/onsenui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/js/onsenui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/blue-basic-theme.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/blue-theme.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/alert-dialog.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/button-bar.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/button.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/checkbox.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/dialog.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/fab.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/global.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/index.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/list.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/material-shadow.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/modal.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/navigation-bar.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/notification.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/page.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/popover.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/progress-bar.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/progress-circular.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/radio-button.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/range.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/search-input.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/switch.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/tab-bar.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/text-input.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/textarea.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/toolbar-button.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/components/util.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/dark-theme.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/purple-theme.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/onsenui/stylus/sunshine-theme.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_CustomCenter/P_CustomCenter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_CustomCenter/V_CustomCenter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/P_FandQ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/P_FandQGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/P_FandQ_details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/P_FandQ_sub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/V_FandQ.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/V_FandQGroup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/V_FandQ_details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/V_FandQ_sub.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_TaskList/P_TaskList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_TaskList/V_TaskListPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/P_MasterPage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_master/V_MasterPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/pageTemplate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/pageTemplate.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -10,29 +120,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.idea/workspace.xml" afterPath="$PROJECT_DIR$/platforms/android/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.iml" afterPath="$PROJECT_DIR$/platforms/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/ClassHeaders.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/core_gml/ClassHeaders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/P_FandQ.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/modules/mod_FandQ/P_FandQ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/core_gml/ClassHeaders.js" afterPath="$PROJECT_DIR$/platforms/ios/www/core_gml/ClassHeaders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQ.js" afterPath="$PROJECT_DIR$/platforms/ios/www/modules/mod_FandQ/P_FandQ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/modules/mod_master/V_MasterPage.html" afterPath="$PROJECT_DIR$/platforms/ios/www/modules/mod_master/V_MasterPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/core_gml/AppDelegate.js" afterPath="$PROJECT_DIR$/platforms/osx/www/core_gml/AppDelegate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/core_gml/ClassHeaders.js" afterPath="$PROJECT_DIR$/platforms/osx/www/core_gml/ClassHeaders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/core_gml/ModuleFactoryProxy.js" afterPath="$PROJECT_DIR$/platforms/osx/www/core_gml/ModuleFactoryProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/osx/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/index.html" afterPath="$PROJECT_DIR$/platforms/osx/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/modules/mod_CustomCenter/V_CustomCenter.html" afterPath="$PROJECT_DIR$/platforms/osx/www/modules/mod_CustomCenter/V_CustomCenter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/modules/mod_FandQ/P_FandQ.js" afterPath="$PROJECT_DIR$/platforms/osx/www/modules/mod_FandQ/P_FandQ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/modules/mod_FandQ/V_FandQ.html" afterPath="$PROJECT_DIR$/platforms/osx/www/modules/mod_FandQ/V_FandQ.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/modules/mod_TaskList/V_TaskListPage.html" afterPath="$PROJECT_DIR$/platforms/osx/www/modules/mod_TaskList/V_TaskListPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/modules/mod_master/P_MasterPage.js" afterPath="$PROJECT_DIR$/platforms/osx/www/modules/mod_master/P_MasterPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/osx/www/modules/mod_master/V_MasterPage.html" afterPath="$PROJECT_DIR$/platforms/osx/www/modules/mod_master/V_MasterPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/platforms.json" afterPath="$PROJECT_DIR$/platforms/platforms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/core_gml/AppDelegate.js" afterPath="$PROJECT_DIR$/www/core_gml/AppDelegate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/core_gml/ClassHeaders.js" afterPath="$PROJECT_DIR$/www/core_gml/ClassHeaders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" afterPath="$PROJECT_DIR$/www/modules/mod_FandQ/P_FandQ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
     </list>
     <ignored path="MultableCRIT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +144,8 @@
       <file leaf-file-name="AppDelegate.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/core_gml/AppDelegate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6230032">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8626198">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -834,8 +922,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/core_gml/AppDelegate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6230032">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8626198">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding />
         </state>
       </provider>
