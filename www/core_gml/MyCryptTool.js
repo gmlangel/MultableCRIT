@@ -1,6 +1,10 @@
 /**
  * 加解密工具
  * Created by guominglong on 2017/4/22.
+ 在看web api时发现浏览器竟然提供了原生的RSA和AES的加密解密方法。然后就试了一下，
+ 速度还是很快的。相关内容https://developer.mozilla.org/en-US/docs/Web/API/Crypto, google的
+ 例子 https://chromium.googlesource.com/chromium/blink/+/72fef91ac1ef679207f51def8133b336a6f6588f/LayoutTests/crypto
+ (这个是chromium的测试代码，里面包含了使用的方法)
  */
 
 class MyCryptTool{
