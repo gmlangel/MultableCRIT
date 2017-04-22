@@ -2,6 +2,10 @@
 <html>
 <head>
     <meta charset='UTF-8'>
+    <script type="text/javascript" src="./core_gml/MyCryptTool.js"></script>
+    <script type="text/javascript">
+
+    </script>
 </head>
 <body>
 <div class='test'></div>
@@ -139,16 +143,43 @@
         return text;
     }
 
-    createNewUserKey().then(function(keyPairs){
-        encrypt("this is origin text", keyPairs[0]).then(function(res){
-            //console.log('public', JSON.stringify(keyPairs[0]));
-            //console.log('private', JSON.stringify(keyPairs[1]));
-            decrypt(res, keyPairs[1]).then(function(decrypted){
-                console.log(decrypted);
-            });
-        });
-    })
+//    createNewUserKey().then(function(keyPairs){
+//        encrypt("this is origin text", keyPairs[0]).then(function(res){
+//            //console.log('public', JSON.stringify(keyPairs[0]));
+//            //console.log('private', JSON.stringify(keyPairs[1]));
+//            decrypt(res, keyPairs[1]).then(function(decrypted){
+//                console.log(decrypted);
+//            });
+//        });
+//    })
 
+
+    function  a(){
+        console.log(1)
+    }
+    function  b(){
+        console.log(1)
+    }
+    function  c(){
+        console.log(1)
+    }
+    a.then(b).then(c)
+//    return;
+//    let cty = new MyCryptTool();
+//        cty.createNewUserKey().then(function(keyPairs){
+//            var buff = new Uint8Array(new ArrayBuffer(4));
+//            buff[0] = 0;
+//            buff[1] = 1;
+//            buff[2] = 2;
+//            buff[3] = 3;
+//            cty.encryptBuffer(buff, keyPairs[0]).then(function(res){
+//                //console.log('public', JSON.stringify(keyPairs[0]));
+//                //console.log('private', JSON.stringify(keyPairs[1]));
+//                cty.decryptBuffer(res, keyPairs[1]).then(function(decrypted){
+//                    console.log(decrypted);
+//                });
+//            });
+//        })
 </script>
 </body>
 </html>
