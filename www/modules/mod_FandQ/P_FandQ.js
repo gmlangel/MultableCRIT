@@ -12,7 +12,7 @@ function FandQ(){
          loadingNode = ons._util.createElement("<div class='loadingStyle'><ons-progress-circular indeterminate></ons-progress-circular></div>");
          document.getElementById('ModuleFandQ_P').appendChild(loadingNode)
         //加载数据源
-        this.loadDataProvider(rootUrl + 'assets/FandQ_Provider.html',function(){
+        this.loadDataProvider(providerUrl,function(){
             document.getElementById('ModuleFandQ_P').removeChild(loadingNode);
             //当数据源加载成功后,将数据源绑定到显示对象列表
             selfinstance.makeLazyListDelegate();

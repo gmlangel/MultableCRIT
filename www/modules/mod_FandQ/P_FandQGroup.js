@@ -8,8 +8,53 @@ function FandQGroup(){
     var data = null;
     this.init = function(){
         selfinstance = this;
+        //显示loading
+        loadingNode = ons._util.createElement("<div class='loadingStyle'><ons-progress-circular indeterminate></ons-progress-circular></div>");
+        document.getElementById('ModuleFandQgrp_P').appendChild(loadingNode)
+        //加载数据源
+        var tempproviderUrl = cur_language == 'zh' ? providerUrl_zh : providerUrl_en;
+        this.loadDataProvider(tempproviderUrl,function(){
+            document.getElementById('ModuleFandQgrp_P').removeChild(loadingNode);
+            //当数据源加载成功后,将数据源绑定到显示对象列表
+            selfinstance.fillInfo(selfinstance.getTitleByIdx(0).innerHTML,selfinstance.getDataArrByIdx(0));
 
+        });
+        //$('body').find('ons-back-button').each(function(idx,node){
+        //    var titleStr = node.innerHTML;
+        //    if(cur_language == 'zh'){
+        //        node.innerHTML = titleStr.replace('>返回<','>back<')
+        //    }
+        //})
     }
+
+    //加载数据源
+    this.loadDataProvider = function(_url,comp){
+        $.ajax({
+            url:_url,
+            type:'get',
+            async:true,
+            dataType:'html',
+            success:function(data){
+                if(data != ""){
+                    //获取到了数据源
+                    var xmln = document.createElement('div');
+                    xmln.innerHTML = data;
+                    FandQGroup.dataProvider = selfinstance.appendStyle(xmln);//为数据源追加样式
+                }
+                if(comp != null && typeof(comp) == 'function'){
+                    comp()//加载成功
+                }
+            },
+            error:function(xr, textStatus, errorThrown){
+                if(err != null && typeof(err) == "function"){
+                    err(xr.responseText);
+                }else{
+                    console.log(xr.responseText);
+                }
+            }
+        })
+    }
+
     //当页面切换完毕
     this.onmainNavPushEnd = function(e){
         document.getElementById('mainNav').removeEventListener(NavigatorEvent.PushEnd,selfinstance.onmainNavPushEnd);
@@ -65,6 +110,43 @@ function FandQGroup(){
         })
     }
 
+    //获取一条指定索引的数据
+    this.getTitleByIdx = function(idx){
+        if(FandQGroup.dataProvider == null || FandQGroup.dataProvider.length == 0){
+            return null
+        }else{
+            var titleGroup = FandQGroup.dataProvider[idx];
+            return titleGroup.getElementsByTagName('div-client-title')[0];
+        }
+    }
+
+    //获取一条指定索引的子级数据
+    this.getDataArrByIdx = function(idx){
+        if(FandQGroup.dataProvider == null || FandQGroup.dataProvider.length == 0){
+            return null
+        }else{
+            var dataGroup = FandQGroup.dataProvider[idx];
+            return dataGroup.getElementsByTagName('div-group');
+        }
+    }
+
+    this.appendStyle = function(baseNode){
+        var bn = $(baseNode)[0]
+        $(bn).find('span').each(function(idx,node){
+            node.className = 'div-group-titleStyle';
+        })
+        $(bn).find('ul').each(function(idx,node){
+            node.className = 'div-group-ulStyle';
+        })
+        $(bn).find('#t').each(function(idx,node){
+            node.className = 'div-item-list-p';
+        })
+        $(bn).find('#c').each(function(idx,node){
+            node.className = 'div-group-ulStyle';
+        })
+        return bn.children;
+    }
+
 
     //获取一条指定索引的数据
     this.getGroupinfoByIdx = function(idx){
@@ -87,5 +169,6 @@ function FandQGroup(){
     }
 }
 
+FandQGroup.dataProvider = null;
 //向模块map中注册controller
 moduleMap[mod_fq_grp]["controller"] = new FandQGroup();

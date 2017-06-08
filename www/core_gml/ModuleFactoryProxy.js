@@ -42,6 +42,9 @@ function ModuleFactoryProxy(){
                     var scrId = mod['id'] +'JS';
                     //创建一个新的脚本node
                     var controllerScriptNode = document.createElement('script');
+                    //$('body').find('ons-back-button').each(function(idx,node){
+
+                    //})
                     controllerScriptNode.innerHTML = resultText;
                     controllerScriptNode.id = scrId;
                     //删除旧的同ID脚本

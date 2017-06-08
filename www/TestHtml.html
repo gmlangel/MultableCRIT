@@ -96,6 +96,107 @@
 
     }
 
+    function createAESKey(){
+        let keyStr = "{971E1D3A-042B-41da-8E97-181F8073D8E2}";
+        let buff = new Uint8Array(new ArrayBuffer(32));
+        let i = 0;
+        while(i<32)
+        {
+
+                buff[i] = keyStr.charCodeAt(i);
+                i++;
+
+        }
+        let tiv = new Uint8Array(new ArrayBuffer(16));
+        tiv.forEach(item => item = 0);
+
+        let mydataArr = [0x00,0x00,0x00,0x06,0x00,0x00,0x00,0x0b,0x56,0x31,0x2e,0x30,0x30,0x2e,0x30,0x30,0x34,0x34,0x00,0x00,0x00,0x00,0x03,0x6e,0x6f,0x00,0x03]
+        let mydata = new Uint8Array(mydataArr.length);
+        i=0;
+        while(i<mydataArr.length){
+            mydata[i] = mydataArr[i];
+            i++;
+        }
+        console.log("mydata",mydata);
+        crypto.subtle.importKey(
+                "raw", //can be "jwk" or "raw"
+                buff,
+                {   //this is the algorithm options
+                    name: "AES-CBC",
+                },
+                false, //whether the key is extractable (i.e. can be used in exportKey)
+                ["encrypt", "decrypt"] //can be "encrypt", "decrypt", "wrapKey", or "unwrapKey"
+                )
+                .then(function(key){
+                    //returns the symmetric key
+                    console.log(key);
+
+                    crypto.subtle.encrypt(
+                            {
+                                name: "AES-CBC",
+                                //Don't re-use initialization vectors!
+                                //Always generate a new iv every time your encrypt!
+                                iv: tiv,
+                            },
+                            key, //from generateKey or importKey above
+                            mydata //ArrayBuffer of data you want to encrypt
+                            )
+                            .then(function(encrypted){
+                                //returns an ArrayBuffer containing the encrypted data
+                                let encryData = new Uint8Array(encrypted)
+                                consoleBuffer(encryData,"加密后")
+                                crypto.subtle.decrypt(
+                                        {
+                                            name: "AES-CBC",
+                                            iv: tiv, //The initialization vector you used to encrypt
+                                        },
+                                        key, //from generateKey or importKey above
+                                        encryData //ArrayBuffer of the data
+                                        )
+                                        .then(function(decrypted){
+                                            //returns an ArrayBuffer containing the decrypted data
+                                            consoleBuffer(new Uint8Array(decrypted),"解密后")
+                                        })
+                                        .catch(function(err){
+                                            console.error(err);
+                                        });
+                            })
+                            .catch(function(err){
+                                console.error(err);
+                            });
+                })
+                .catch(function(err){
+                    console.error(err);
+                });
+
+
+        function consoleBuffer(buff,qianzui){
+            let dcData = buff;
+            let resultStr = "";
+            for(var ti=0;ti<dcData.length;ti++){
+                resultStr += dcData[ti] < 16 ? "0x0" + dcData[ti].toString(16):"0x" + dcData[ti].toString(16)
+                resultStr +=",";
+            }
+            console.log(qianzui,resultStr);
+        }
+//        var algorithmKeyGen = {
+//            name: "AES-CBC",
+//            length:256
+//        };
+//        var nonExtractable = false;
+//
+//        var publicKey = "";
+//        var privateKey = "";
+//        var keyPairs = "";
+//        return crypto.subtle.generateKey(algorithmKeyGen, true, ['encrypt', 'decrypt']).then(function(result) {
+//            // gene key pair
+//            keyPairs = result;
+//            return Promise.all([crypto.subtle.exportKey("jwk", keyPairs.publicKey),
+//                crypto.subtle.exportKey("jwk", keyPairs.privateKey)]);
+//        })
+
+    }
+
     function _arrayBufferToBase64( buffer ) {
         var binary = '';
         var bytes = new Uint8Array( buffer );
@@ -154,32 +255,10 @@
 //    })
 
 
-    function  a(){
-        console.log(1)
-    }
-    function  b(){
-        console.log(1)
-    }
-    function  c(){
-        console.log(1)
-    }
-    a.then(b).then(c)
-//    return;
-//    let cty = new MyCryptTool();
-//        cty.createNewUserKey().then(function(keyPairs){
-//            var buff = new Uint8Array(new ArrayBuffer(4));
-//            buff[0] = 0;
-//            buff[1] = 1;
-//            buff[2] = 2;
-//            buff[3] = 3;
-//            cty.encryptBuffer(buff, keyPairs[0]).then(function(res){
-//                //console.log('public', JSON.stringify(keyPairs[0]));
-//                //console.log('private', JSON.stringify(keyPairs[1]));
-//                cty.decryptBuffer(res, keyPairs[1]).then(function(decrypted){
-//                    console.log(decrypted);
-//                });
-//            });
-//        })
+
+    console.log(444)
+    createAESKey();
+    console.log(555)
 </script>
 </body>
 </html>

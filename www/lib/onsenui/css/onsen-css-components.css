@@ -796,7 +796,7 @@ ons-range[disabled] .range {
   line-height: 44px;
   font-size: 17px;
   font-weight: 500;
-  color: #1f1f21;
+  color: rgba(24,103,194,0.85);
   margin: 0;
   padding: 0;
   overflow: visible;

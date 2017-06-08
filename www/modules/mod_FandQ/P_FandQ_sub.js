@@ -7,6 +7,12 @@ function FandQ_sub(){
     var currentSelectedIdx = 0;//当前选择的子项
     this.init = function(){
         selfinstance = this;
+        $('body').find('ons-back-button').each(function(idx,node){
+            var templab = cur_language == 'zh' ? 'Back' : '返回';
+            node.innerHTML = ons._util.createElement(
+                '<ons-back-button>'+templab+'</ons-back-button></div>'
+            ).innerHTML;
+        })
     }
     //当页面切换完毕
     this.onmainNavPushEnd = function(e){

@@ -6,6 +6,12 @@ function FandQ_details(){
     var selfinstance = null;
     this.init = function(){
         selfinstance = this;
+        $('body').find('ons-back-button').each(function(idx,node){
+            var templab = cur_language == 'zh' ? 'Back' : '返回';
+            node.innerHTML = ons._util.createElement(
+                '<ons-back-button>'+templab+'</ons-back-button></div>'
+            ).innerHTML;
+        })
     }
 
 

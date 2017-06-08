@@ -29,6 +29,11 @@ var moduleMap = {}
 
 //url跟路径
 var rootUrl = './'//'http://172.16.3.178/crit/';//'./'
+//当前系统语言zh或者en
+var cur_language = 'zh';
+//provider路径
+var providerUrl_zh = rootUrl + 'assets/FandQ_Provider_zh.html';
+var providerUrl_en = rootUrl + 'assets/FandQ_Provider_en.html';
 /**
  * 程序主容器
  * */
