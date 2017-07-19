@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script src="core_gml/jquery-3.1.1.min.js"></script>
+  <script src="core_gml/ModuleFactoryProxy.js"></script>
+  <script src="core_gml/GMLEvent.js"></script>
+  <script src="core_gml/AppDelegate.js"></script>
+  <script src="core_gml/ClassHeaders.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    var isBeginRecord = false;
+    //初始化语音识别工具
+    var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
+    var newRecognition = new SpeechRecognition();
+    newRecognition.continuous = true;
+    newRecognition.onresult = function(event) {
+      var last = event.results.length - 1;
+      var resultStr =  event.results[last][0].transcript;
+      //console.log(resultStr);
+      //播放动画
+      beginAni(resultStr);
+    }
+    newRecognition.onerror = function(event) {
+      console.log(event);
+    }
+    //初始化动画数组
+    var aniArr = [];
+    var aniFrameRate = 1000.0/24;//动画帧频
+    setInterval(function(){
+      aniArr.forEach(function(item){
+
+        item.style.opacity -= 0.01;
+        if(item.style.opacity <= 0){
+
+          item.style.display = "none";
+        }
+      })
+
+    },aniFrameRate);
+
+
+//    setTimeout(function(){
+//      newRecognition.stop();
+//    },5000);//最长5秒
+    /**
+     * 开始录制语音,并语音转文本
+     * */
+    function stt(evt){
+      var node = document.getElementById("btn");
+      if(isBeginRecord){
+        tts("停止语音识别");
+        newRecognition.stop();
+        node.value = "开始语音识别";
+      }else{
+        tts("开始语音识别");
+        newRecognition.start();
+        node.value = "停止语音识别";
+      }
+      isBeginRecord = !isBeginRecord;
+    }
+
+    /**
+     * 文本转语音
+     * */
+    function tts(str){
+      var utterThis = new window.SpeechSynthesisUtterance(str);
+      window.speechSynthesis.speak(utterThis);
+    }
+
+    function beginAni(str){
+
+      console.log(str);
+    }
+
+    //tts("The Web Speech API enables you to incorporate voice data into web apps. The Web Speech API has two parts: SpeechSynthesis (Text-to-Speech), and SpeechRecognition (Asynchronous Speech Recognition.)")
+//      var app = new AppDelegate();
+//      app.start();
+
+
+
+//    document.addEventListener('show', function(event) {
+//      var page = event.target;
+//      var titleElement = document.querySelector('#toolbar-title');
+//        titleElement.innerHTML = page.id;
+//      var tabbarNode = document.querySelector('#mainTabbar');
+//      if(tabbarNode != null){
+//        //添加点击事件
+//        tabbarNode.onclick = function(e){
+//          var pro = new ModuleFactoryProxy()
+//          console.log(pro);
+//          pro.loadModule(mod_mc,function(srcNode){
+//            console.log("加载完毕");
+//            hahah();
+//          },function(errInfo){
+//            console.log(errInfo);
+//          })
+//        }
+//      }
+//    });
+
+
+  </script>
+</head>
+<body>
+<input type="button" id="btn" value="开始语音识别" width="160" onclick="javascript:void(0);stt(this)">
+</body>
+</html>
